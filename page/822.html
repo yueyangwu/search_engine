@@ -1,0 +1,422 @@
+<script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/CFIDE/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/CFIDE/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=8577;
+_cf_flash_policy_port=1243;
+_cf_clientid='1967197AA4DD69E0F574B039BC45F327';/* ]]> */</script><script type="text/javascript" src="/CFIDE/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfform.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/masks.js"></script>
+<script type="text/javascript" src="/CFIDE/scripts/cfformhistory.js"></script>
+
+		<script type="text/javascript">/* <![CDATA[ */
+			ColdFusion.Ajax.importTag('CFFORM');
+		/* ]]> */</script>
+		
+		<script type="text/javascript">/* <![CDATA[ */
+			var _cf_SUBMIT_init_192120196962115=function()
+			{
+				ColdFusion.setSubmitClicked('CFForm_1','addEmail');
+			};ColdFusion.Event.registerOnLoad(_cf_SUBMIT_init_192120196962115);
+		/* ]]> */</script>
+		<script type="text/javascript">
+<!--
+    _CF_checkCFForm_1 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+        //form element email 'EMAIL' validation checks
+        if (!_CF_checkEmail(_CF_this['email'].value, false))
+        {
+            _CF_onError(_CF_this, "email", _CF_this['email'].value, "Please enter a valid email address");
+            _CF_error_exists = true;
+        }
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+
+		<script type="text/javascript">/* <![CDATA[ */
+			var _cf_SUBMIT_init_192120196962117=function()
+			{
+				ColdFusion.setSubmitClicked('CFForm_2','submit');
+			};ColdFusion.Event.registerOnLoad(_cf_SUBMIT_init_192120196962117);
+		/* ]]> */</script>
+		<script type="text/javascript">
+<!--
+    _CF_checkCFForm_2 = function(_CF_this)
+    {
+        //reset on submit
+        _CF_error_exists = false;
+        _CF_error_messages = new Array();
+        _CF_error_fields = new Object();
+        _CF_FirstErrorField = null;
+
+
+        //display error messages and return success
+        if( _CF_error_exists )
+        {
+            if( _CF_error_messages.length > 0 )
+            {
+                // show alert() message
+                _CF_onErrorAlert(_CF_error_messages);
+                // set focus to first form error, if the field supports js focus().
+                if( _CF_this[_CF_FirstErrorField].type == "text" )
+                { _CF_this[_CF_FirstErrorField].focus(); }
+
+            }
+            return false;
+        }else {
+            return true;
+        }
+    }
+//-->
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Nodding Head - Philadelphia - Taking over the world 7 barrels at a time</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/freelancer.css" rel="stylesheet" type="text/css">
+<link href="css/imageSwap.css" rel="stylesheet" type="text/css">
+
+<!-- Fonts -->
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+<!-- IE8 support for HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+
+<link rel="shortcut icon" href="images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="images/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/icons/apple-touch-icon-144x144.png">
+
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Brewing beer 7 barrels at a time since 1999">
+<meta name="keywords" content="philly,brewing,brewpub,grog,kung fu grip,700 level,monkey knife fight,beer,philadelphia,philly beer week,GABF">
+<meta name="copyright" content="2014 215webworks">
+<meta name="author" content="215webworks">
+<meta name="Distribution" content="Global">
+<meta name="Robots" content="INDEX,FOLLOW">
+<meta name="Revisit-after" content="3 Days">
+<style>
+#map-canvas {
+	height: 335px;
+	width:100%;
+	margin: 0px;
+	padding: 0px
+}
+</style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>
+var map;
+var noddingHead = new google.maps.LatLng(39.950221, -75.166583);
+var latlng = new google.maps.LatLng(39.950221, -75.166583);
+
+var MY_MAPTYPE_ID = 'custom_style';
+
+function initialize() {
+
+  var featureOpts = [
+{
+    "stylers": [
+      { "hue": "#022c4f" },
+      { "saturation": -21 },
+      { "visibility": "on" },
+      { "gamma": 0.39 }
+    ]
+  }
+  ];
+
+  var mapOptions = {
+    zoom: 16,
+    center: noddingHead,
+    mapTypeControlOptions: {
+      mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
+    },
+    mapTypeId: MY_MAPTYPE_ID
+  };
+
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+	  
+	var marker = new google.maps.Marker({
+    position: noddingHead,
+    map: map,
+    title:"Nodding Head Brewpub"
+	
+	
+});
+
+  var infowindow = new google.maps.InfoWindow();
+  infowindow.setContent('<b>Nodding Head Brewpub</b><br>1516 Sansom St');
+  google.maps.event.addListener(marker, 'click', function() {
+      infowindow.open(map, marker);
+  });
+	
+	  
+
+  var styledMapOptions = {
+    name: 'Custom Style'
+  };
+
+  var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+  map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+  
+  
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+
+<body id="page-top" class="index">
+
+<!-- Navigation -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style=" background-color:#a02f29"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand normal-text" href="#page-top">Nodding Head Brewery &amp; Restaurant</a> </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hidden"> <a href="#page-top"></a> </li>
+
+        
+        <li class="page-scroll"><a href="#photos">Photos</a></li>
+        
+        <li class="page-scroll"> <a href="#contact">Contact</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--<div class="main-header">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                   
+                </div>
+            </div>
+
+        </div>
+
+    </div>-->
+
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 text-left">
+            
+        
+        
+      
+        <div class="headerLogo"> <img src="images/noddingGuy.png" height="700"alt="Nodding Guy"> </div>
+        <div class="headerLogoMobile"> <img src="images/noddngHeadCircle.png" width="500" class=" fitGrid" alt="Nodding Guy"> </div>
+      </div>
+      
+      
+      <div class="col-lg-6 text-left">
+       
+        
+        
+        
+        
+        
+        
+     
+          
+          
+          
+          <div  id="survey1" style="">
+	
+	<div  id="cf_layoutarea192120196962114" style="overflow:auto;">
+		
+		
+        	<h1 class="red">Join The Mailing List!</h1>	
+			<form name="CFForm_1" id="CFForm_1" action="includes/addEmail.cfm" method="post" onsubmit="return ColdFusion.Ajax.checkForm(this, _CF_checkCFForm_1,'cf_layoutarea192120196962114')">
+
+
+<div style="float: left">
+<input name="email" id="email"  type="text" maxlength="150"  style="color:#444444;"  width="50"  placeholder="email"  /> 
+
+</div>
+
+
+
+<div style="float: left; padding-left:10px;"><input name="addEmail" id="addEmail"  type="submit" value="Submit" class="btn"  /></div>
+
+</form>
+
+	 </div> 
+ </div> <div  id="survey1" style="">
+	
+	
+			<h1 class="red">Where is Nodding Head Moving?</h1>
+		<div  id="cf_layoutarea192120196962116" style="overflow:auto;">
+		
+		
+
+<div class="surveyPad">
+
+<form name="CFForm_2" id="CFForm_2" action="includes/monthlySurvey.cfm" method="post" onsubmit="return ColdFusion.Ajax.checkForm(this, _CF_checkCFForm_2,'cf_layoutarea192120196962116')"><input name="surveyID" id="surveyID"  type="hidden" value="151614" /> <input name="surveyAnswer" id="surveyAnswer"  type="radio" value="15161401" />&nbsp; &nbsp; Fishtown <br>
+<input name="surveyAnswer" id="surveyAnswer"  type="radio" value="15161402" />&nbsp; &nbsp; South Philly <br>
+<input name="surveyAnswer" id="surveyAnswer"  type="radio" value="15161403" />&nbsp; &nbsp; West Philly <br>
+<input name="surveyAnswer" id="surveyAnswer"  type="radio" value="15161404" />&nbsp; &nbsp; Fairmount <br>
+<input name="surveyAnswer" id="surveyAnswer"  type="radio" value="15161405" />&nbsp; &nbsp; Jenkintown <br>
+
+</div>
+
+
+<br>
+
+<div style="width:100%" align="center" ><input name="submit" id="submit"  type="submit" value="Submit" class="btn"  /></div>
+
+</form>
+
+	 </div> 
+ </div> 
+        
+     
+        
+          
+          
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="red">Contact</h1>
+      </div>
+    <div class="col-lg-12 center-block text-center">
+    
+    <a class="twitter-timeline" href="https://twitter.com/NoddingHeadBrew" data-widget-id="537066923906064385">Tweets by @NoddingHeadBrew</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    
+       
+       
+     
+     <div class="col-lg-12" style="height:50px">&nbsp;</div>
+     
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="events" id="photos">
+        <div class="container">
+            <div class="row">
+            
+              <div class="col-lg-12 text-center">
+                   <h1 class="red">Photos</h1>
+                   <img src="images/photosSquare.jpg" class="img-circle" width="150">
+               
+               <div class="col-lg-12 text-center" style="padding-top:30px; padding-bottom:50px;">  
+                  
+                   <img src="images/photos/breweryMove/gordonBrewery.jpg" class="scale" alt="gordon in brewery" > &nbsp;
+                   <img src="images/photos/breweryMove/alleyTanks.jpg" class="scale" alt="brewery in alley" > &nbsp;
+                   <img src="images/photos/breweryMove/breweryAlley.jpg" class="scale" alt="brewery tanks" >  &nbsp;
+                   
+               </div>    
+                   
+            
+                
+                
+            </div>
+        </div>
+</section>
+
+
+
+
+
+<footer class="text-center">
+  <div class="footer-below">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12"><a href="http://twitter.com/NoddingHeadBrew/" target="_blank"><img src="images/icons/twitter-logo-square.png" alt="twitter" border="0"></a> <br>
+          <br>
+          Copyright &copy; 2015 - Nodding Head </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="scroll-top page-scroll visible-xs visble-sm"> <a class="btn btn-primary" href="#page-top"> <i class="fa fa-chevron-up"></i> </a> </div>
+
+
+
+<script src="js/jquery-1.10.2.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script> 
+<script src="js/classie.js"></script> 
+<script src="js/cbpAnimatedHeader.js"></script> 
+<script src="js/freelancer.js"></script> 
+<script type="text/javascript">
+
+	</script> 
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-11310029-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+</html>

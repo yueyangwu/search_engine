@@ -1,0 +1,43 @@
+1.
+For crawler: create index.dat
+$ ruby crawler.rb https://www.thrillist.com/eat/nation/power-ranking-the-most-american-foods 1000 page/ bfs
+
+For Indexing :  create docs.dat and invindex.dat
+$ ruby index.rb page/ index.dat
+
+For Pagerank score: Calculating each page pagerank score, creating pagerank.dat
+$   ruby pagerank.rb 
+
+2.   URL   :        http://cgi.soic.indiana.edu/~zhang299/yangle.html
+
+3.
+ 
+
+we using bfs to crawl our pages
+
+The way we find hit list is we use the most mode to finding the pages which means the pages that contain more words that we input will rank higher. 
+ 
+For rank the page, we combine Pagerank and TF-IDF score together, the formula is 
+Finalscore = 4  * TF-IDF score  + Pagerank score. We valued the TF-IDF score higher because is more relative to query that input.  
+
+4.
+
+For the evaluation, we asked our roommates to test the search engine. When the instruction about how to use the search engine is given, the user is able to give meaningful query that produce result. They found out it is easy to find a related page. For example, the user would enter cheese burger and pages returned would be the best burgers for suggestion and cheese sandwiches. They also find out that higher ranked pages are usually more related with their interest in searching.
+
+5.
+
+ 
+For pagerank :
+http://www.iijlab.net/~kjc/classes/sfc2012s-measurement/pagerank.rb   
+
+Thanks for Lead Associate Instructor Jangwon Lee helped us solved the error when downloading page.
+
+
+
+
+
+new feature: we add a line under the pagelink to display it’s web URL, and also show the key word of this pagecontent.
+ 
+ 
+Extra credit:  we add the background image and we adjust the search box to the middle of page.
+

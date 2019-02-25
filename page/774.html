@@ -1,0 +1,412 @@
+<!doctype html>
+<html>
+<head>
+
+
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Bulldog Uptown</title>
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+<link href="http://draftfreak.com/global_css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="http://draftfreak.com/global_css/custom.css" rel="stylesheet" type="text/css">
+<style>
+html {
+ background: url(images/wood_floor.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+.stripe_one {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    background: url(images/green_stripe.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+</style>
+<!-- HTML 5 shim for IE backwards compatibility -->
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3288774-52', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.php"><img src="images/logo_tiny.png" width="150px"></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+          <!-- <li><a href="index.php">Home</a></li> -->
+          <li><a href="food_drink.php">Food & Drink</a></li>
+          <li><a href="events.php">Events & Parties</a></li>
+          <!-- <li><a href="parties.php">Private Parties</a></li> -->
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact & Shop <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="contact.php">Map & Hours</a></li>
+                <li><a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">Email Us</a></li>
+                <li><a href="https://squareup.com/market/draftfreak" target="_blank">Bulldog Shop</a></li>
+                <li><a href="http://onelink.quickgifts.com/merchant/the-bulldog/" target="_blank">Gift Cards</a></li>
+                <li><a href="http://draftfreak.fbmta.com/members/UpdateProfile.aspx?Action=Subscribe" target="_blank">Membership</a></li>
+                <li><a href="gallery.php">Gallery</a></li>
+              </ul>
+          </li>
+          <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Locations<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="http://bulldog.draftfreak.com">The Bulldog Uptown</a></li>
+                  <li><a href="http://bulldog-midcity.draftfreak.com">The Bulldog Mid-City</a></li>
+                  <li><a href="http://bulldog-batonrouge.draftfreak.com">The Bulldog Baton Rouge</a></li>
+                  <li><a href="http://bulldog-jackson.draftfreak.com">The Bulldog Jackson</a></li>
+                  <li><a href="http://lagersmetairie.draftfreak.com">Lager's International Ale House</a></li>
+                  <li><a href="http://draftfreak.com">Draftfreak</a></li>
+              </ul>
+          </li>          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        <li align="center">
+          <span>
+            <a href="http://m.icecodebeer.com/thisbarbeer.cfm?barid=33" target="new"><img src="images/icecodebeer.png" vspace="8px" height="28px" border="0"></a>&nbsp;
+            <a href="http://facebook.com/BulldogUptown" target="new"><img src="images/facebook.png" vspace="8px" height="28px" border="0"></a>&nbsp;
+            <a href="http://yelp.com/biz/the-bulldog-new-orleans-2" target="new"><img src="images/yelp.png" vspace="8px" height="28px" border="0"></a>&nbsp;
+            <a href="http://instagram.com/bulldog_uptown" target="new"><img src="images/instagram.png" vspace="8px" height="28px" border="0"></a>&nbsp;
+            <a href="http://twitter.com/Bulldog_Uptown" target="new"><img src="images/twitter.png"  vspace="8px" height="28px"  border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          </li>
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+    
+
+<div class="row stripe">
+    <div class="container">  
+<!--         <div class="col-sm-5 text-center">
+            <img src="images/bulldog_local_logo.png" class="img-responsive" alt="#location_name#">
+        </div> -->
+        <div class="col-md-12 text-center hidden-xs">
+            <h2 class="shadow_add">
+                The Bulldog Uptown<br>
+                3236 Magazine St.<br>
+                New Orleans, LA 70115<br>
+                (504) 891-1516 <a href="contact.php">[map]</a>
+            </h2>
+        </div>
+
+        <div class="col-xs-12 text-center visible-xs">
+            <h3 class="shadow_add">
+                The Bulldog Uptown<br>
+                3236 Magazine St.<br>
+                New Orleans, LA 70115<br>
+                (504) 891-1516 <a href="contact.php">[map]</a>
+            </h3>
+        </div>
+
+    </div>
+</div>
+
+<div class="row stripe_one">
+    <div class="container">
+        <div class="col-md-6">
+            <div id="homeCar" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#homeCar" data-slide-to="0" class="active"></li>
+    <li data-target="#homeCar" data-slide-to="1"></li>
+    <li data-target="#homeCar" data-slide-to="2"></li>
+    <li data-target="#homeCar" data-slide-to="3"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="images/slide_1.jpg?k=807" alt="The best patio on Magazine">
+       <div class="carousel-caption">
+        <h2>The best patio on Magazine</h2>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="images/slide_2.jpg?k=807" alt="Out famous tap fountain">
+      <div class="carousel-caption">
+        <h2>Out famous tap fountain</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/slide_3.jpg?k=807" alt="50 draft beers, always rotating">
+      <div class="carousel-caption">
+        <h2>50 draft beers, always rotating</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="images/slide_4.jpg?k=807" alt="Voted Best Bar Food - 4 years in a row by Gambit Readers">
+       <div class="carousel-caption">
+        <h2>Voted Best Bar Food - 4 years in a row by Gambit Readers</h2>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#homeCar" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#homeCar" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+            <!-- <img src="images/happy_hour.png" alt="Happy Hour at The Bulldog" width="180px" class="space_top" align="right"> --><br> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<p>Located on the corner of Magazine and Pleasant Streets in the heart of New Orleans' famous Garden District and Magazine Street entertainment district, The Bulldog offers one of the best dog-friendly patios in town, complete with a large-screen TV and our famous beer-tap fountain.  Enjoy any of 50 fine draft beers (mostly craft and local) or 100+ bottled beers along with a full selection of cocktails and our award-winning pub fare.  As the original (and nationally recognized) location, a visit to New Orleans isn't complete without a visit to The Bulldog-Uptown.</p>
+
+<p><strong>Over 21 only</strong></p>
+<h2>Awards:</h2>
+<ul>
+<li>Gambit 2015: #1 Best Beer selection&nbsp;</li><li>Gambit 2014:</li>
+<ul>
+<li>Best place to meet new people</li>
+<li>Best beer selection</li>
+<li>Best bar food (4 years in a row)</li>
+</ul>
+<li>USA Today 2015 10 Best Pubs for Drinks, Sports and Grub in New Orleans</li><li>Thrillist 2015 - The 21 Most Inviting Drinking Patios in America</li>
+<li>Times Picayune 2014: 5 Best Beer Bars in New Orleans</li>
+<li>Thrillist 2014 - Six Best Beer Bars in New Orleans</li><li>The Daily Meal 2014 - America's 11 Best Craft Beer Bars</li><li>Food &amp; Wine Magazine 2012: America's Best Beer Bars</li>
+</ul>        </div>
+        <div class="col-md-6">
+            <div class="stripe_bordered stripe_dark">
+                <h1 align="Center">Events at The Bulldog</h1>
+                    <h3>Ugly Sweater Party </h3><br>Thursday,  December 17,  2015  at 6:00 pm<br />Sam Adams is sponsoring a pub crawl and one of their stops is with us at The Bulldog. We will be featuring a few of their seasonal beers pumping through our brand new beer lines as well as giving away prizes for the best holiday sweaters. Come party the night away with us.&nbsp;<hr>                    <a href="events.php" class="btn btn-lg btn-primary">More About Events</a>
+            </div><br>
+        <div class="stripe_dark stripe_bordered" >
+            <h1 align="center">Hours & Specials</h1>
+                <div align="center" class="stripe_bordered">
+                     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<p class="MsoNormalCxSpFirst" align="center" style="text-align: center;"><span style="font-weight: 700;"><span style="font-size: 20pt; line-height: 30.6666641235352px;">Happy Hour is&nbsp;M-F 2pm-7pm!</span></span></p><p class="MsoNormalCxSpMiddle" align="center" style="text-align: center;"><span style="font-weight: 700;"><span style="font-size: 15pt; line-height: 23px;">50¢ off pints, $1.00 off pitchers</span></span><span style="font-size: 15pt; line-height: 23px;">*,&nbsp;</span></p><p class="MsoNormalCxSpMiddle" align="center" style="text-align: center;"><span style="font-size: 15pt; line-height: 23px;"><span style="font-weight: 700;">half-priced house wines<o:p></o:p></span></span></p><p class="MsoNormalCxSpMiddle" align="center" style="text-align: center;"><span style="font-weight: 700;"><span style="font-size: 15pt; line-height: 23px;">and double drinks for the price of a single</span></span><span style="font-size: 15pt; line-height: 23px;">**<span style="font-weight: 700;">!</span></span></p><p class="MsoNormalCxSpMiddle" align="center" style="text-align: center;"><span style="color: inherit; font-family: inherit; font-size: 12px; line-height: 13.8000001907349px; text-align: right;">*draft special not available on Wednesdays</span><span style="color: inherit; font-family: inherit; text-align: right; line-height: 1.42857143;">&nbsp;</span><span style="color: inherit; font-family: inherit; text-align: right; line-height: 1.42857143;">&nbsp;</span><span style="color: inherit; font-family: inherit; text-align: right; font-size: 9pt; line-height: 13.8000001907349px;">**excludes shots and super premium spirits</span></p><h4 style="text-align: center;">Daily specials begin after 7pm</h4><p></p> 
+                </div>
+                <br clear="all">
+            <div class="hidden-xs">
+            <table class="table table-condensed">
+                <tr>
+                    <td></td>
+                    <td align="center"><strong>Bar <br class="visible-xs"/>Hours</strong></td>
+                    <td align="center"><strong>Grill <br class="visible-xs" /> Open 'til</strong></td>
+                    <td align="center">Specials</td>
+                </tr>
+                <tr>
+                    <td><strong>Sun:</strong></td>
+                    <td>11:00 am - til</td>
+                    <td>11:00 pm</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Mon:</strong></td>
+                    <td>11:30 am - til</td>
+                    <td>11:00 pm</td>
+                    <td>$2 Off Select Pitchers</td>
+                </tr>
+                <tr>
+                    <td><strong>Tues:</strong></td>
+                    <td>11:30 am - til</td>
+                    <td>11:00 pm</td>
+                    <td>$1 off Stone Brewing Pints</td>
+                </tr>
+                <tr>
+                    <td><strong>Wed:</strong></td>
+                    <td>11:30 am - til</td>
+                    <td>midnight</td>
+                    <td>Pint Night - Keep the Glass!</td>
+                </tr>
+                <tr>
+                    <td><strong>Thurs:</strong></td>
+                    <td>11:30 am - til</td>
+                    <td>midnight</td>
+                    <td>$2 off Stone Brewing and Local Craft Pitchers</td>
+                </tr>
+                <tr>
+                    <td><strong>Fri:</strong></td>
+                    <td>11:30 am - til</td>
+                    <td>midnight</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><strong>Sat:</strong></td>
+                    <td>11:00 am - til</td>
+                    <td>midnight</td>
+                    <td></td>
+                </tr>
+            </table>
+            
+            </div>
+<!-- Phone Hours -->
+            <div class="visible-xs">
+            <table class="table table-condensed">
+                <tr>
+                    <td><h3 align="center">Sunday:</h3><br />
+                    <strong>Hours: </strong> 11:00 am - til<br />
+                    <strong>Kitchen Open until: </strong>11:00 pm<br />
+                    <strong>Daily Special: </strong><br />
+                </tr>
+                <tr>
+                    <td><h3 align="center">Monday</h3><br />
+                    <strong>Hours: </strong> 11:30 am - til<br />
+                    <strong>Kitchen Open until: </strong>11:00 pm<br />
+                    <strong>Daily Special: </strong>$2 Off Select Pitchers<br />
+                </tr>
+                <tr>
+                    <td><h3 align="center">Tuesday:</h3><br />
+                    <strong>Hours: </strong> 11:30 am - til<br />
+                    <strong>Kitchen Open until: </strong>11:00 pm<br />
+                    <strong>Daily Special: </strong>$1 off Stone Brewing Pints<br />
+                </tr>
+                <tr>
+                    <td><h3 align="center">Wednesday:</h3><br />
+                    <strong>Hours: </strong> 11:30 am - til<br />
+                    <strong>Kitchen Open until: </strong>midnight<br />
+                    <strong>Daily Special: </strong>Pint Night - Keep the Glass!<br />
+                </tr>
+                <tr>
+                    <td><h3 align="center">Thursday</h3><br />
+                    <strong>Hours: </strong> 11:30 am - til<br />
+                    <strong>Kitchen Open until: </strong>midnight<br />
+                    <strong>Daily Special: </strong>$2 off Stone Brewing and Local Craft Pitchers<br />
+                </tr>
+                <tr>
+                    <td><h3 align="center">Friday</h3><br />
+                    <strong>Hours: </strong> 11:30 am - til<br />
+                    <strong>Kitchen Open until: </strong>midnight<br />
+                    <strong>Daily Special: </strong><br />
+                </tr>
+                <tr>
+                    <td><h3 align="center">Saturday</h3><br />
+                    <strong>Hours: </strong> 11:00 am - til<br />
+                    <strong>Kitchen Open until: </strong>midnight<br />
+                    <strong>Daily Special: </strong><br />
+                </tr>
+            </table>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="row stripe">
+    <div class="container">
+        <div class="col-md-12">
+            <script type="text/javascript" class="rebelmouse-embed-script" src="https://www.rebelmouse.com/static/js-build/embed/embed.js?site=Bulldog_Uptown&height=1200&flexible=1&dont_load_new_posts=1&more_button=1&show_rebelnav=1"></script>
+        </div>
+    </div>
+</div>
+
+<!--- End Body --> 
+</div>
+
+<footer><!-- Modal Sections Here -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+      <h3 class="black">Contact Us:</h3><br><br>
+      <form action="send_form_email.php" method="post" role="form">
+        <input type="hidden" name="location" value="The Bulldog Uptown">
+        <div class="form-group">
+          <div><input type="text" placeholder="First Name" name="first_name" class="form-control" required /></div>
+        </div>
+        <div class="form-group">
+          <div><input type="text" placeholder="Last Name" name="last_name" class="form-control" required /></div>
+        </div>
+        <div class="form-group">
+          <div><input type="email" placeholder="your@email.com" name="email" validate="email" class="form-control" required /></div>
+        </div>
+        <div class="form-group">
+          <div><input type="tel" placeholder="Phone: (999) 555-1212" name="phone"  class="form-control" required /></div>
+        </div>
+        <div class="form-group">
+          <h4 class="black">Comments, Questions:</h4>
+          <textarea name="prose" class="form-control"></textarea>
+          <br />
+          <input type="submit" name="submit" value="Submit" class="btn  btn-warning">
+        </div>    
+      </form>
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+<div class="navbar navbar-foot navbar-fixed-bottom">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<p>Site by: <a href="http://www.descantmedia.com" target="new">Descant Media</a></p>  
+			</div>
+			<div class="col-md-9 text-right">
+				<p> &copy; Copyright 2015, Draftfreak | The Bulldog | Lager's International Ale House</p>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+
+<!--- Modal Sections Here -->
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://draftfreak.com/global_js/bootstrap.js"></script>
+</body>
+</html><script type="text/javascript">(function (d, w) {var x = d.getElementsByTagName('SCRIPT')[0];var f = function () {var s = d.createElement('SCRIPT');s.type = 'text/javascript';s.async = true;s.src = "//np.lexity.com/embed/YW/36890ac0a4c23b334a8691b19b43ea0b?id=61b14c1a3bdf";x.parentNode.insertBefore(s, x);};w.attachEvent ? w.attachEvent('onload',f) :w.addEventListener('load',f,false);}(document, window));</script>

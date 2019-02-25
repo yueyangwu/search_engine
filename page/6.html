@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]>     <html class="no-js lt-ie9 ie8"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Join Thrillist</title>
+
+        <meta http-equiv="cleartype" content="on" /><link rel="icon" type="image/x-icon" href="//www.thrillist.com/favicon.ico" />
+
+        
+            <script>
+                // to prevent ipads from zooming in on load we set a static viewport width
+                (function() {
+                    var content = (navigator.userAgent.match(/iPad/i)) ? 'width=1000' : 'width=device-width, initial-scale=1.0, minimum-scale=1.0, minimal-ui';
+                    document.write('<meta name="viewport" content="' + content + '" />');
+                })();
+            </script>
+
+            <link rel="stylesheet" type="text/css" href="/theme/Vortex2/css/vortex.min.31e0b017.min.css" />    <style>
+      html {
+        height: 100%;
+      }
+
+              body {
+          background-image: url(//assets3.thrillist.com/v1/image/1270210/1800x1200/crop);
+        }
+      
+              @media screen and (min-width: 768px) {
+          .dynamic-header {
+            background-image: url(//assets3.thrillist.com/v1/image/737063/1800x100/crop) !important;
+          }
+        }
+          </style>
+  
+            <script type="text/javascript">
+//<![CDATA[
+/* Modernizr 2.8.2 (Custom Build) | MIT & BSD
+ * Build: http://modernizr.com/download/#-fontface-backgroundsize-borderimage-borderradius-boxshadow-flexbox-flexboxlegacy-hsla-multiplebgs-opacity-rgba-textshadow-cssanimations-csscolumns-cssgradients-cssreflections-csstransforms-csstransforms3d-csstransitions-localstorage-postmessage-sessionstorage-shiv-cssclasses-addtest-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load
+ */
+;window.Modernizr=function(a,b,c){function z(a){j.cssText=a}function A(a,b){return z(m.join(a+";")+(b||""))}function B(a,b){return typeof a===b}function C(a,b){return!!~(""+a).indexOf(b)}function D(a,b){for(var d in a){var e=a[d];if(!C(e,"-")&&j[e]!==c)return b=="pfx"?e:!0}return!1}function E(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:B(f,"function")?f.bind(d||b):f}return!1}function F(a,b,c){var d=a.charAt(0).toUpperCase()+a.slice(1),e=(a+" "+o.join(d+" ")+d).split(" ");return B(b,"string")||B(b,"undefined")?D(e,b):(e=(a+" "+p.join(d+" ")+d).split(" "),E(e,b,c))}var d="2.8.2",e={},f=!0,g=b.documentElement,h="modernizr",i=b.createElement(h),j=i.style,k,l={}.toString,m=" -webkit- -moz- -o- -ms- ".split(" "),n="Webkit Moz O ms",o=n.split(" "),p=n.toLowerCase().split(" "),q={},r={},s={},t=[],u=t.slice,v,w=function(a,c,d,e){var f,i,j,k,l=b.createElement("div"),m=b.body,n=m||b.createElement("body");if(parseInt(d,10))while(d--)j=b.createElement("div"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=["&#173;",'<style id="s',h,'">',a,"</style>"].join(""),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background="",n.style.overflow="hidden",k=g.style.overflow,g.style.overflow="hidden",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},x={}.hasOwnProperty,y;!B(x,"undefined")&&!B(x.call,"undefined")?y=function(a,b){return x.call(a,b)}:y=function(a,b){return b in a&&B(a.constructor.prototype[b],"undefined")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!="function")throw new TypeError;var d=u.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(u.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(u.call(arguments)))};return e}),q.flexbox=function(){return F("flexWrap")},q.flexboxlegacy=function(){return F("boxDirection")},q.postmessage=function(){return!!a.postMessage},q.rgba=function(){return z("background-color:rgba(150,255,150,.5)"),C(j.backgroundColor,"rgba")},q.hsla=function(){return z("background-color:hsla(120,40%,100%,.5)"),C(j.backgroundColor,"rgba")||C(j.backgroundColor,"hsla")},q.multiplebgs=function(){return z("background:url(https://),url(https://),red url(https://)"),/(url\s*\(.*?){3}/.test(j.background)},q.backgroundsize=function(){return F("backgroundSize")},q.borderimage=function(){return F("borderImage")},q.borderradius=function(){return F("borderRadius")},q.boxshadow=function(){return F("boxShadow")},q.textshadow=function(){return b.createElement("div").style.textShadow===""},q.opacity=function(){return A("opacity:.55"),/^0.55$/.test(j.opacity)},q.cssanimations=function(){return F("animationName")},q.csscolumns=function(){return F("columnCount")},q.cssgradients=function(){var a="background-image:",b="gradient(linear,left top,right bottom,from(#9f9),to(white));",c="linear-gradient(left top,#9f9, white);";return z((a+"-webkit- ".split(" ").join(b+a)+m.join(c+a)).slice(0,-a.length)),C(j.backgroundImage,"gradient")},q.cssreflections=function(){return F("boxReflect")},q.csstransforms=function(){return!!F("transform")},q.csstransforms3d=function(){var a=!!F("perspective");return a&&"webkitPerspective"in g.style&&w("@media (transform-3d),(-webkit-transform-3d){#modernizr{left:9px;position:absolute;height:3px;}}",function(b,c){a=b.offsetLeft===9&&b.offsetHeight===3}),a},q.csstransitions=function(){return F("transition")},q.fontface=function(){var a;return w('@font-face {font-family:"font";src:url("https://")}',function(c,d){var e=b.getElementById("smodernizr"),f=e.sheet||e.styleSheet,g=f?f.cssRules&&f.cssRules[0]?f.cssRules[0].cssText:f.cssText||"":"";a=/src/i.test(g)&&g.indexOf(d.split(" ")[0])===0}),a},q.localstorage=function(){try{return localStorage.setItem(h,h),localStorage.removeItem(h),!0}catch(a){return!1}},q.sessionstorage=function(){try{return sessionStorage.setItem(h,h),sessionStorage.removeItem(h),!0}catch(a){return!1}};for(var G in q)y(q,G)&&(v=G.toLowerCase(),e[v]=q[G](),t.push((e[v]?"":"no-")+v));return e.addTest=function(a,b){if(typeof a=="object")for(var d in a)y(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b=="function"?b():b,typeof f!="undefined"&&f&&(g.className+=" "+(b?"":"no-")+a),e[a]=b}return e},z(""),i=k=null,function(a,b){function l(a,b){var c=a.createElement("p"),d=a.getElementsByTagName("head")[0]||a.documentElement;return c.innerHTML="x<style>"+b+"</style>",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a=="string"?a.split(" "):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function("h,f","return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&("+m().join().replace(/[\w\-]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c("'+a+'")'})+");return n}")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}")),k||q(a,c),a}var c="3.7.0",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h="_html5shiv",i=0,j={},k;(function(){try{var a=b.createElement("a");a.innerHTML="<xyz></xyz>",g="hidden"in a,k=a.childNodes.length==1||function(){b.createElement("a");var a=b.createDocumentFragment();return typeof a.cloneNode=="undefined"||typeof a.createDocumentFragment=="undefined"||typeof a.createElement=="undefined"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:"default",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b)}(this,b),e._version=d,e._prefixes=m,e._domPrefixes=p,e._cssomPrefixes=o,e.testProp=function(a){return D([a])},e.testAllProps=F,e.testStyles=w,e.prefixed=function(a,b,c){return b?F(a,b,c):F(a,"pfx")},g.className=g.className.replace(/(^|\s)no-js(\s|$)/,"$1$2")+(f?" js "+t.join(" "):""),e}(this,this.document),function(a,b,c){function d(a){return"[object Function]"==o.call(a)}function e(a){return"string"==typeof a}function f(){}function g(a){return!a||"loaded"==a||"complete"==a||"uninitialized"==a}function h(){var a=p.shift();q=1,a?a.t?m(function(){("c"==a.t?B.injectCss:B.injectJs)(a.s,0,a.a,a.x,a.e,1)},0):(a(),h()):q=0}function i(a,c,d,e,f,i,j){function k(b){if(!o&&g(l.readyState)&&(u.r=o=1,!q&&h(),l.onload=l.onreadystatechange=null,b)){"img"!=a&&m(function(){t.removeChild(l)},50);for(var d in y[c])y[c].hasOwnProperty(d)&&y[c][d].onload()}}var j=j||B.errorTimeout,l=b.createElement(a),o=0,r=0,u={t:d,s:c,e:f,a:i,x:j};1===y[c]&&(r=1,y[c]=[]),"object"==a?l.data=c:(l.src=c,l.type=a),l.width=l.height="0",l.onerror=l.onload=l.onreadystatechange=function(){k.call(this,r)},p.splice(e,0,u),"img"!=a&&(r||2===y[c]?(t.insertBefore(l,s?null:n),m(k,j)):y[c].push(l))}function j(a,b,c,d,f){return q=0,b=b||"j",e(a)?i("c"==b?v:u,a,b,this.i++,c,d,f):(p.splice(this.i++,0,a),1==p.length&&h()),this}function k(){var a=B;return a.loader={load:j,i:0},a}var l=b.documentElement,m=a.setTimeout,n=b.getElementsByTagName("script")[0],o={}.toString,p=[],q=0,r="MozAppearance"in l.style,s=r&&!!b.createRange().compareNode,t=s?l:n.parentNode,l=a.opera&&"[object Opera]"==o.call(a.opera),l=!!b.attachEvent&&!l,u=r?"object":l?"script":"img",v=l?"script":u,w=Array.isArray||function(a){return"[object Array]"==o.call(a)},x=[],y={},z={timeout:function(a,b){return b.length&&(a.timeout=b[0]),a}},A,B;B=function(a){function b(a){var a=a.split("!"),b=x.length,c=a.pop(),d=a.length,c={url:c,origUrl:c,prefixes:a},e,f,g;for(f=0;f<d;f++)g=a[f].split("="),(e=z[g.shift()])&&(c=e(c,g));for(f=0;f<b;f++)c=x[f](c);return c}function g(a,e,f,g,h){var i=b(a),j=i.autoCallback;i.url.split(".").pop().split("?").shift(),i.bypass||(e&&(e=d(e)?e:e[a]||e[g]||e[a.split("/").pop().split("?")[0]]),i.instead?i.instead(a,e,f,g,h):(y[i.url]?i.noexec=!0:y[i.url]=1,f.load(i.url,i.forceCSS||!i.forceJS&&"css"==i.url.split(".").pop().split("?").shift()?"c":c,i.noexec,i.attrs,i.timeout),(d(e)||d(j))&&f.load(function(){k(),e&&e(i.origUrl,h,g),j&&j(i.origUrl,h,g),y[i.url]=2})))}function h(a,b){function c(a,c){if(a){if(e(a))c||(j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}),g(a,j,b,0,h);else if(Object(a)===a)for(n in m=function(){var b=0,c;for(c in a)a.hasOwnProperty(c)&&b++;return b}(),a)a.hasOwnProperty(n)&&(!c&&!--m&&(d(j)?j=function(){var a=[].slice.call(arguments);k.apply(this,a),l()}:j[n]=function(a){return function(){var b=[].slice.call(arguments);a&&a.apply(this,b),l()}}(k[n])),g(a[n],j,b,n,h))}else!c&&l()}var h=!!a.test,i=a.load||a.both,j=a.callback||f,k=j,l=a.complete||f,m,n;c(h?a.yep:a.nope,!!i),i&&c(i)}var i,j,l=this.yepnope.loader;if(e(a))g(a,0,l,0);else if(w(a))for(i=0;i<a.length;i++)j=a[i],e(j)?g(j,0,l,0):w(j)?B(j):Object(j)===j&&h(j,l);else Object(a)===a&&h(a,l)},B.addPrefix=function(a,b){z[a]=b},B.addFilter=function(a){x.push(a)},B.errorTimeout=1e4,null==b.readyState&&b.addEventListener&&(b.readyState="loading",b.addEventListener("DOMContentLoaded",A=function(){b.removeEventListener("DOMContentLoaded",A,0),b.readyState="complete"},0)),a.yepnope=k(),a.yepnope.executeStack=h,a.yepnope.injectJs=function(a,c,d,e,i,j){var k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};/*
+ * Custom classes for Vortex
+ */
+
+// need to test for preserve-3d for bloody IE.
+// Src: http://stackoverflow.com/questions/18252133/js-feature-detect-preserve-3d-property-support-for-nested-elements
+(function(Modernizr, win){
+
+    // flex-box still very broken in lte IE11. let's just add an msie class
+    Modernizr.addTest('msie', function () {
+        return /MSIE|Trident/i.test(navigator.userAgent);
+    });
+    
+    Modernizr.addTest('preserve-3d', function () {
+
+        var prop = Modernizr.prefixed('transformStyle');
+        var val = 'preserve-3d';
+        var computedStyle;
+        if(!prop) return false;
+
+        prop = prop.replace(/([A-Z])/g, function(str,m1){ return '-' + m1.toLowerCase(); }).replace(/^ms-/,'-ms-');
+
+        Modernizr.testStyles('#modernizr{' + prop + ':' + val + ';}', function (el, rule) {
+            computedStyle = win.getComputedStyle ? getComputedStyle(el, null).getPropertyValue(prop) : '';
+        });
+        
+        // msie is forever borked with the spinning cube
+        return (computedStyle && !Modernizr.msie);
+    });
+
+    // test for mobile
+    // removed: webOS|iPad|Opera Mini for regex performance
+    Modernizr.addTest('mobile', function () {
+        //var uaMobile = /Android|iPhone|iPod|BlackBerry|IEMobile/i.test(navigator.userAgent);
+        var winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+        return winWidth < 768;
+    });
+
+    // test for iOS
+    Modernizr.addTest('ios', function () {
+        return /(iPad|iPhone|iPod)/i.test(navigator.userAgent);
+    });
+
+}(Modernizr, window));
+//]]>
+</script>
+                        
+        
+    </head>
+
+    <body class="template-v2 panels-multi layout-two-column landing layout-centered page-type-flat tmg-thrillist">
+
+        <div class="main-container">
+                    <header class="banner-header dynamic-header banner">
+      <h1 class="logo logo-thrillist">Thrillist</h1>
+    </header>
+              
+            <div class="main wrapper clearfix">
+
+                
+
+<div class="column left " >
+    <div class="column-left-inner">
+
+          
+    
+          <h1 class="logo logo-thrillist">Thrillist</h1>
+      <p class="intro">The very best&nbsp;<strong>food</strong>,&nbsp;<strong>drink</strong>, and&nbsp;<strong>fun</strong>&nbsp;from across the country and around the world delivered piping hot right to your inbox. Eat up!</p>
+    
+  
+
+    </div> <!-- .column-left-inner -->
+    
+</div> <!-- .column.left -->
+
+
+<div id="view-content" class="column right">
+
+      
+      <ul class="panel-switcher clearfix">
+      <li class="active"" data-panel-type="signup"><a href="#">Sign Up</a></li><li class=""" data-panel-type="login"><a href="#">Log In</a></li>    </ul>
+  
+  <div class="panel-content">
+
+    <div class="cube-wrap">
+      <div class="inner" data-active-panel="1">
+
+        <div class="panel panel-1 panel-signup active">
+  <p class="intro mobile-only">The very best&nbsp;<strong>food</strong>,&nbsp;<strong>drink</strong>, and&nbsp;<strong>fun</strong>&nbsp;from across the country and around the world delivered piping hot right to your inbox. Eat up!</p>
+
+  <div id="user-zip" class="user-zip-wrap shade-wrap">
+    
+    <div class="shade-teaser user-zip-intro">
+        <p class="geo-guess">We see you're in <strong><span class="zip-city"></span></strong></p>
+        <div class="not-in">
+            <p><a id="change-zip" class="toggle-shade shade-expand" data-shade-id="zip-manual-entry" href="#">Not in <span class="zip-city"></span>?</a></p>
+        </div>
+    </div>
+
+    <div id="zip-manual-entry" class="shade zip-manual-entry">
+        <div class="inner">
+            <form action="/" id="change-zip-form" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>                <p class="intro">Type in your zip code and we will find you the freshest, local recommendations.</p>
+                <div class="input text"><label for="ZipZipCode"></label><input name="data[Zip][zip_code]" placeholder="Zip Code" required type="text" id="ZipZipCode"/></div>            <div class="button-wrap icon location">
+                <div class="submit"><input  class="email signup button" type="submit" value="Find City"/></div></form>            </div>
+            <p class="toggle-shade shade-collapse" data-shade-id="zip-manual-entry">
+                <a href="#">No Thanks</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+<form action="/campaigns/user_signup_flat" id="email-signup" class="email-connect type-signup" novalidate method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>
+    <ul class="button-options bo-type-signup option-count-3 with-email clearfix">
+        <li class="option-fb icon">
+<a class="fb signup button icon" href="#fb-login" data-url="/campaigns/fb_signup/flat">
+            <span class="full-view">Connect with Facebook</span>
+        <span class="compact-view">Connect</span>        
+    </a>
+	<p class="disclaimer full-view">We won't post without your permission. <span class="desktop-only text-promise">Promise.</span></p>
+
+</li><li class="option-gplus icon">
+<a class="gplus signup button icon" href="#gplus-login">
+      <span class="full-view">Connect with Google+</span>
+    <span class="compact-view">Connect</span>
+  </a>
+
+<script>
+  // setting up Google API login params
+  var gplusApiParams = gplusApiParams || {
+    'callback': 'gPlusSigninCallback',
+    'clientid': '600319512963-f911fp774l9s1je4bo4hdlsv829os4h1.apps.googleusercontent.com',
+    'cookiepolicy': 'single_host_origin',
+    'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+    'redirecturi': 'postmessage',
+    'accesstype': 'offline',
+    'width': 'wide',
+    'scope': 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email'
+  };
+
+  
+  // G+ callbacks need to be explicitly global. Src: http://stackoverflow.com/q/15717284
+  var gPlusSigninCallback = gPlusSigninCallback || function(authResult) {
+    VORTEX.UserSignin.Google.login(authResult);
+  };
+</script>
+
+
+</li><li class="option-email icon">
+<div class="clearfix compact-view"></div>
+
+<div class="email-inputs ">
+    <div class="input email"><input name="data[Campaign][email]" placeholder="Email Address" data-validate="email" required type="email" id="CampaignEmail"/></div><div class="input password"><input name="data[Campaign][password]" placeholder="Password" data-validate="6" required pattern=".{6,}" title="Minimum of 6 characters required" type="password" id="CampaignPassword"/></div><input type="hidden" name="data[Campaign][campaign_id]" value="2" id="CampaignCampaignId"/><input type="hidden" name="data[Campaign][destination]" value="" class="form-email-destination" id="CampaignDestination"/><input type="hidden" name="data[Campaign][ss1]" value="" class="form-email-ss1" id="CampaignSs1"/><input type="hidden" name="data[Campaign][ss2]" value="" class="form-email-ss2" id="CampaignSs2"/><input type="hidden" name="data[Campaign][page_type]" value="flat" id="CampaignPageType"/>    
+    </div>
+
+<div class="button-wrap icon email">
+    <input  class="email signup button full-view" type="submit" value="Connect with Email"/>    <input  class="email signup button compact-view" type="submit" value="Connect"/></div></li>    </ul>
+
+    <div class="custom-checkbox checked over-21"><input type="hidden" name="data[Campaign][over_twentyone]" id="CampaignOverTwentyone_" value="0"/><input type="checkbox" name="data[Campaign][over_twentyone]"  value="1" class="visuallyhidden" checked id="CampaignOverTwentyone"/><label for="CampaignOverTwentyone">You are 21+ years old.</label></div>
+    
+    <input type="hidden" name="data[Campaign][form_type]" value="signup" id="CampaignFormType"/>    
+</form>
+
+  <script>
+	//suppress facepile on mobile for performance
+	(function(){
+		var tmgFacepile = '<div class="fb-facepile full-view" data-href="https://www.facebook.com/thrillist" data-width="300" data-height="45" data-max-rows="1" data-colorscheme="light" data-size="small" data-show-count="true"></div>',
+			winWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		if (winWidth > 767) {
+			document.write(tmgFacepile);
+		}
+	})();
+</script></div><div class="panel panel-2 panel-login ">
+
+<div id="forgot-password" class="shade-wrap">
+
+    <div id="forgot-password-shade" class="shade">
+        <div class="inner">
+            <form action="https://www.thrillist.com/password-reset" id="forgot-password-form" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>            <p class="intro"><strong>Forgot something?</strong><br /> Enter the email address you use for Thrillist and we’ll send you a link to reset your password.</p>
+            <div class="input email"><label for="testEmail"></label><input name="User[email]" placeholder="Email Address" required type="email" id="testEmail"/></div>            <div class="button-wrap icon reset">
+                <div class="submit"><input  class="reset-password button" type="submit" value="Reset Password"/></div></form>            </div>
+            <p class="toggle-shade shade-collapse" data-shade-id="forgot-password-shade">
+                <a href="#">Never mind. Back to Log In.</a>
+            </p>
+        </div>
+    </div>
+
+</div>
+<form action="/campaigns/user_signup_flat" id="email-login" class="email-connect type-login"  method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/></div>
+    <ul class="button-options bo-type-login option-count-3 with-email clearfix">
+        <li class="option-fb icon">
+<a class="fb signup button icon" href="#fb-login" data-url="/campaigns/fb_signup/flat">
+            <span class="full-view">Connect with Facebook</span>
+        <span class="compact-view">Connect</span>        
+    </a>
+
+</li><li class="option-gplus icon">
+<a class="gplus signup button icon" href="#gplus-login">
+      <span class="full-view">Connect with Google+</span>
+    <span class="compact-view">Connect</span>
+  </a>
+
+<script>
+  // setting up Google API login params
+  var gplusApiParams = gplusApiParams || {
+    'callback': 'gPlusSigninCallback',
+    'clientid': '600319512963-f911fp774l9s1je4bo4hdlsv829os4h1.apps.googleusercontent.com',
+    'cookiepolicy': 'single_host_origin',
+    'requestvisibleactions': 'http://schemas.google.com/AddActivity',
+    'redirecturi': 'postmessage',
+    'accesstype': 'offline',
+    'width': 'wide',
+    'scope': 'https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email'
+  };
+
+  
+  // G+ callbacks need to be explicitly global. Src: http://stackoverflow.com/q/15717284
+  var gPlusSigninCallback = gPlusSigninCallback || function(authResult) {
+    VORTEX.UserSignin.Google.login(authResult);
+  };
+</script>
+
+
+</li><li class="separator"><span>OR</span></li><li class="option-email icon">
+<div class="clearfix compact-view"></div>
+
+<div class="email-inputs active fully-visible">
+    <div class="input email"><input name="data[Campaign][email]" placeholder="Email Address" data-validate="email" required type="email" id="CampaignEmail"/></div><div class="input password"><input name="data[Campaign][password]" placeholder="Password" data-validate="6" required type="password" id="CampaignPassword"/></div><input type="hidden" name="data[Campaign][campaign_id]" value="2" id="CampaignCampaignId"/><input type="hidden" name="data[Campaign][destination]" value="" class="form-email-destination" id="CampaignDestination"/><input type="hidden" name="data[Campaign][ss1]" value="" class="form-email-ss1" id="CampaignSs1"/><input type="hidden" name="data[Campaign][ss2]" value="" class="form-email-ss2" id="CampaignSs2"/><input type="hidden" name="data[Campaign][page_type]" value="flat" id="CampaignPageType"/>            <div class="forgot-password toggle-shade shade-expand" data-shade-id="forgot-password-shade">
+            <a href="//www.thrillist.com/password-reset" target="_top">Forgot Password?</a>
+        </div>
+    
+    </div>
+
+<div class="button-wrap icon email">
+    <input  class="email signup button full-view" type="submit" value="Connect with Email"/>    <input  class="email signup button compact-view" type="submit" value="Connect"/></div></li>    </ul>
+
+    
+    
+    <input type="hidden" name="data[Campaign][form_type]" value="login" id="CampaignFormType"/>    
+</form>
+</div>
+      </div>
+    </div> <!-- .cube-wrap -->
+
+  </div> <!-- .panel-content -->
+
+  
+<footer class="terms">
+    <p>By signing up for Thrillist, you agree to our<br /> <a href="http://www.thrillistmediagroup.com/tscs" target="_blank">Terms of Service</a> and <a href="http://www.thrillistmediagroup.com/privacypolicy" target="_blank">Privacy Policy</a>.</p>
+</footer>
+    
+</div> <!-- .column.right -->
+
+
+            </div> <!-- #main -->
+
+            
+  
+
+        </div> <!-- #main-container -->
+
+        <script type="text/javascript">var VORTEX = VORTEX || {};
+VORTEX.Settings = {"Property":"thrillist","PropertyName":"Thrillist","Stage":0,"Campaign":{"id":"2","name":"thrillist right","destination":"https:\/\/www.thrillist.com\/","destinationBase":"https:\/\/www.thrillist.com","signupHost":"signup.thrillist.com","campaignForceOverride":false},"PageType":{"layout":"centered","display":"flat","step":"landing"},"Apps":{"facebook":"111767172173562","google":"600319512963-f911fp774l9s1je4bo4hdlsv829os4h1.apps.googleusercontent.com"},"Vendors":{"nanigans":{"thrillist":"","jackthreads":"36166"},"fbConversion":{"thrillist":"6008784021808","jackthreads":"6006761327201"},"googleConversion":"1069085947"},"Form":{"webroot":"\/","source":"flat","targets":{"facebook":"\/campaigns\/fb_signup_flat"}},"Flags":{"v1":false,"overlayClose":false,"flexHeight":false,"fbPixelSignup":false,"confirmEmail":false,"disableBackendSignupFlow":true,"flatOneColumn":false,"compactMobileView":false,"theme":"Vortex2","template":"v2","panels":"multi","withVideo":false,"modal_show_on_mobile":false,"vortex_redesign_v2":true,"no_signup_password":false,"flex_height":false,"hide_mobile_blurb":false,"confirm_email":false,"show_email_fields":false,"confirm_email_on_login":false,"flat_bg_no_scale":false,"flat_page_one_column":false,"paid_campaign":false,"backend_signup_tracking":true,"force_cookie_override":false,"hide_facepile":false,"allow_cookie_override":false,"fb_pixel_signup":false},"completeTracked":false,"Analytics":[{"action":"flat","noninteraction":true}]};</script>
+
+
+        <script type="text/javascript" src="/theme/Vortex2/js/vortex.min.2bc5546c.min.js"></script>
+
+<script>
+var universal_location = null, pathname = location.pathname, re = /[^\/]+@[^\/]+/;
+if (pathname.match(re)) {
+    var hashCode = function(input){
+    var hash = 0;
+    if (input.length == 0) return hash;
+    for (i = 0; i < input.length; i++) {
+      char = input.charCodeAt(i);
+      hash = ((hash<<5)-hash)+char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return hash;
+  }
+  pathname = pathname.replace(re, function(m) { return hashCode(m); });
+  universal_location = window.location.protocol
+    + '//' + window.location.hostname + pathname + window.location.search;
+}
+</script>
+<!-- Begin: Display Advertising Google Analytics through doubleclick -->
+    <!-- Src: https://support.google.com/analytics/answer/2444872?hl=en -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-97854-1', 'auto', {
+          'allowLinker': true
+        });
+        ga('require', 'displayfeatures');
+        // Check if flat page; false or exception means it's iframed
+        try {
+          if (window._trackPageview !== false && window.parent.location === window.self.location) {
+            if (universal_location === null) {
+              ga('send', 'pageview');
+            } else {
+              ga('send', 'pageview', universal_location);
+            }
+          }
+        } catch (e) {}
+    </script>
+
+<!-- End: Display Advertising Google Analytics through doubleclick -->
+
+
+
+<div id="fb-root"></div>
+
+<script type="text/javascript">
+    window.fbAsyncInit = function () {
+        FB.init({
+            appId       : '111767172173562', // App ID    
+            channelUrl  : 'https://signup.thrillist.com/fbchannel.php', // Channel File
+            status      : true, // check login status
+            cookie      : true, // enable cookies to allow the server to access the session
+            xfbml       : true, // parse XFBML
+            version     : 'v2.2'
+        });
+        
+        FB.Event.subscribe('auth.statusChange', function(response) {
+          if (response.status != "unknown") {
+            VORTEX.Facepile().show();          }
+        });
+        
+        // Additional initialization code here
+        // TODO better way to find this function
+        try {
+            window.displayShare();
+        } catch(e) {}
+    };
+
+    // Load the SDK Asynchronously
+    (function (d) {
+        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement('script');
+        js.id = id;
+        js.async = true;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        ref.parentNode.insertBefore(js, ref);
+    }(document));
+</script>
+
+<script>
+  //set Google App ID
+  var googleAppId = "600319512963-f911fp774l9s1je4bo4hdlsv829os4h1.apps.googleusercontent.com";
+  
+  (function (d) {
+      var js, id = 'google-jssdk', ref = d.getElementsByTagName('script')[0];
+      if (d.getElementById(id)) {
+          return;
+      }
+      js = d.createElement('script');
+      js.id = id;
+      js.async = true;
+      js.src = "//apis.google.com/js/client.js?onload=googleClientReady"
+      ref.parentNode.insertBefore(js, ref);
+  }(document));
+</script>
+
+<script>
+  // G+ callbacks need to be explicitly global. Src: http://stackoverflow.com/q/15717284
+  var googleClientReady = function(e) {
+    VORTEX.UserSignin.Google.googleClientReady(e);
+  }
+</script>
+
+<!-- Additional script needed for G+ login. Src: https://developers.google.com/+/web/api/javascript -->
+<script type="text/javascript">
+  (function() {
+   var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+   po.src = 'https://apis.google.com/js/client:plusone.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+ })();
+</script>
+
+
+<!-- start boomtrain -->
+<script type="text/javascript">
+    //only load if this is the top frame
+    if (self===top){
+        !function(a){function b(a,b){a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var c="track identify alias initialize".split(" ");for(window._bt=a,i=0;i<c.length;i++)b(a,c[i]);var d=document.createElement("script");d.type="text/javascript",d.async=!0,d.src="//dt9s2nur7u2e9.cloudfront.net/analyticstrain-1.min.js";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e)}(window._bt||[]);window._bt.initialize("238");
+    }
+</script>
+<!-- end boomtrain -->
+
+
+
+    </body>
+</html>
